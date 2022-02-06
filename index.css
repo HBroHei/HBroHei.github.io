@@ -1,0 +1,44 @@
+.stroke_title{
+    text-shadow: 0.25vw 0.25vh 0 #000000,
+                -0.25vw -0.25vh 0 #000000,
+                -0.25vw 0.25vh 0 #000000,
+                0.25vw -0.25vh 0 #000000;
+    color:#00a308
+}
+.stroke_normal{
+    text-shadow: 0.1vw 0.1vh 0 #000000,
+                -0.1vw -0.1vh 0 #000000,
+                -0.1vw 0.1vh 0 #000000,
+                0.1vw -0.1vh 0 #000000;
+}
+html{
+    min-width: fit-content;
+    width:auto
+}
+body{
+    padding: 0;
+    margin:0;
+    background-image: url(banner_final-art.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0%;
+    overflow-x: hidden;
+}
+.list_featured{
+    background-color: white;
+    text-align: center;
+    font-size:medium;
+}
+.list_featured_td{
+    border: 3px solid black;
+    flex: 1;
+}
+.list_featured a{
+    text-decoration: none;
+}
+.list_featured_inner{
+    display:inline-block;
+}
+@media only screen and (min-width: 500px) {
+    .list_featured_inner{display: flex}
+}
