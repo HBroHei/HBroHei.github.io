@@ -1,2 +1,5 @@
 # HBroHei.github.io
-### Page under construction
+
+The website for everything I wanted to post.
+
+### Pages still under construction
