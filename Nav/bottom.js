@@ -3,12 +3,12 @@
 const msgList = [
     'To reflect on how my (and other) videos perform, I recommend installing the "Return YouTube Dislike" Plugin',
     'YouTube needs to improve their copyright system to prevent false copyrights',
-    'I miss scrolling through the comment section of game Music Videos'
+    'Can we all agree war sucks?'
 ]
-const msg = msgList[Math.floor(Math.random() * 3)]
+const msg = msgList[Math.floor(Math.random() * msgList.length)]
 //Add Bottom Navigation
 document.getElementById("bottomNav").innerHTML = 
-'<div style="background-color: green; color:white; font-family: Arial, Helvetica, sans-serif; width: 100vw; min-width: fit-content; font-size:medium;">' +
+'<div style="background-color: green; color:white; font-family: Arial, Helvetica, sans-serif; width: 100%; min-width: fit-content; font-size:medium;">' +
 '<span style="font-family: \'Segoe UI\', Tahoma, Geneva, Verdana, sans-serif; font-size: large;">HBroHei.github.io</span>'+
 '<hr>'+
 '<!--<a href="top" style="color:#00f7ff">Back to Top</a>-->'+

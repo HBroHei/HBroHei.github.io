@@ -1,29 +1,38 @@
 <style>
     .topbtn{
         border:none;
-        height:100vh;
-        background-color: #260097;
+        height:5%;
         color:#00f7ff;
+        text-align: center;
+        padding: 1%;
     }
-    body{
+    .topbtn:hover{
+        background-color: #260097;
+    }
+    #__topbar{
         margin: 0px;
         padding: 0px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background-color: #190064; color:white;
-        height:5vh; 
+        background-color: green; color:white;
         overflow: hidden; 
         display:inline-flex;
+        width: 100%;
+    }
+    #__topbar a{
+        text-decoration: none;
+    }
+    @media only screen and (max-width:1000px) {
+        .small_screen_hidden{
+            display:none
+        }
     }
 </style>
-<body>
+<div id="__topbar">
     <a name="top"></a>
-    <a href="/index.html"><span style="font-size: large;">HammerBroHei</span></a>
-    <div class="topbtn">
-        <a target="_parent" href="/MP9/index.html" class="topbtn" onclick="//window.parent.location.href = 'http:\/\/HBroHei.github.io/MP9/index.html'">MP9 Custom Board</button></a>
-    </div>
-         
-    <div class="topbtn">
-        <a target="_parent" href="/NSMBW/index.html" class="topbtn" onclick="//window.parent.location.href = 'http:\/\/HBroHei.github.io/MP9/index.html'">NSMBW Custom Level</button></a>
-    </div>
+    <a href="/index.html" ><img src="/Nav/main_yt_logo.jpg" style="height:10vh; color:aliceblue"></a>
+    <a href="/index.html" style="color:rgb(0, 255, 191)" class="small_screen_hidden" ><span style="font-size: large;"> Hammer<br> Bro Hei</span></a>
+    <div style="width:1%"></div>
+    <a target="_parent" href="/MP9/index.html" class="topbtn" onclick="//window.parent.location.href = 'http:\/\/HBroHei.github.io/MP9/index.html'">MP9 Custom Board</button></a>
+    <a target="_parent" href="/NSMBW/index.html" class="topbtn" onclick="//window.parent.location.href = 'http:\/\/HBroHei.github.io/MP9/index.html'">NSMBW Custom Level</button></a>
     Page Under Construction!
-</body>
+</div>

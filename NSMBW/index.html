@@ -4,22 +4,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             table,td,tr,th{
+                border-style: solid;
                 border-width: 1px;
             }
         </style>
         <title>NSMBW Custom Level - HBroHei</title>
     </head>
-    <body style="margin: 0px; padding: 0px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
-        <iframe src="/Nav/topbar.html" style="position: fixed; border:none; width:100vw; height: 5vh;"></iframe>
-        <div style="height: 5vh;"></div>
-        <div style="background-color: silver;"><h3>Page work in progress</h3>I mean, it is viewable, but not perfect. A new design is coming in your way!</div>
-        <h1>NSMBW Custom level</h1>
+    <body style="margin: 0px; padding: 0px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; background-color: skyblue;">
+        <!--<iframe src="/Nav/topbar.html" style="position: fixed; border:none; width:100vw; height: 5vh;"></iframe>-->
+        <div id="topbar" style="width:100%"></div>
+        <script src="/Nav/topbar.js"></script>
+        <div style="height: 1%;"></div>
+        <div style="background-color:goldenrod; text-align: center;">
+            <h2>Check out the brand new <a href="https://hbrohei.github.io/NSMRWii/generator">NSMBW Randomizer!</a></h2>
+            <p>A new way to experience New Super Mario Bros Wii.</p>
+        </div>
+        <div style="text-align: center; border-style: dashed;">
+            <h1>NSMBW Custom level</h1>
+            <p>A page in which I post New Super Mario Bros Wii Custom Levels</p>
+        </div>
+        <br>
         Here you will find a lost of custom
         New Super Mario Bros Wii stages made by me with the Reggie! Level editor.
-        All files are in .arc format. To play them,
-        rename the file to "01-01.arc", and replace the one in the "Stage" folder
-        of the game.<br>
+        All files are in .arc format.<br>
         For more information on how to play these levels, search up "NSMBW import custom levels".
+        <br>
         <hr>
         <table>
             <!--<tr>
@@ -58,7 +67,9 @@
                 </td>
             </tr>
         </table>
-        <div id="bottomNav"></div>
+        <div id="bottomNav">
+            <script src="/Nav/bottom.js"></script>
+        </div>
     </body>
-    <script src="/Nav/bottom.js"></script>
+    
 </html>
