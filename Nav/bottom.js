@@ -17,7 +17,7 @@ document.getElementById("bottomNav").innerHTML =
 '<br>'+
 '<div style="display: inline-flex; text-align:center;">'+
 '    <div style=" background-color: rgb(0, 253, 190); width:max-content; height:fit-content; margin: 1vw; display:block; text-align:center;">'+
-'        <a href="https://www.youtube.com/channel/UCAB-dMSrwRcsUKBoWkPCkEA" style=" text-align: center;"><img src="/Nav/main_yt_logo.jpg" style="height:10vh; color:aliceblue">Visit my channel</a>'+
+'        <a href="https://www.youtube.com/channel/UCAB-dMSrwRcsUKBoWkPCkEA" style=" text-align: center;"><img src="/Nav/main_yt_logo.jpg" style="width:10vh; height:10vh; color:aliceblue">Visit my channel</a>'+
 '    </div>'+
 '    <div style="background-color: rgb(0, 160, 253); width:max-content; height:fit-content;  margin: 1vw; text-align: center; height:10vh">'+
 '        <br>'+
