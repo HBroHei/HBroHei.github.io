@@ -3,7 +3,8 @@
 const msgList = [
     'To reflect on how my (and other) videos perform, I recommend installing the "Return YouTube Dislike" Plugin',
     'YouTube needs to improve their copyright system to prevent false copyrights',
-    'Can we all agree war sucks?'
+    'Can we all agree war sucks?',
+    '[Speculation]Watch that the rumored Switch Pro will be announced at the July Direct, and Splatoon 3, Xenoblade 3 and BOTW2 will make more sense.'
 ]
 const msg = msgList[Math.floor(Math.random() * msgList.length)]
 //Add Bottom Navigation
