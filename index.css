@@ -22,6 +22,7 @@ body{
 
 #page_head{
     padding:5rem;
+    padding-bottom: 2.5em;
     color:white;
     text-align: center;
 }
@@ -43,8 +44,9 @@ body{
 
 #div_main{
     background-color: #0f4016;
-    background-image:  url(banner_2026.jpg);
-    background-size: contain;
+    background-image: url(banner_2026.jpg);
+    background-size: 180%;
+    background-position: 50% 0%;
     background-repeat: no-repeat;
 }
 
@@ -183,6 +185,7 @@ body{
 @media (min-width: 768px){
     #div_main{
         background-position: 50% -5rem;
+        background-size: contain;
     }
     #page_head{
         padding-right:  1rem;
