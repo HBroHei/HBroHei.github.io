@@ -5,49 +5,132 @@
         <meta name="google-site-verification" content="EUpk5PLeNfzzf4zpnkWOnUagJWtuH4xCDjip4MKfIaM" />
         <!--<meta http-equiv="refresh" content="0; url=MP9/index.html">-->
         <title>HammerBroHei</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="./navbar.css">
     </head>
-    <link rel="stylesheet" href="index.css">
     <body>
-        <div style="text-align: center;">
-            <br>
-            <br>
-            <h1 style="font-size:6vw; margin: 0px; padding:0px;" class="stroke_title">
-                HBroHei.github.io
-                <h3 style="font-size:1.5vw;">
-                    The website for <a href="https://www.youtube.com/channel/UCAB-dMSrwRcsUKBoWkPCkEA" class="stroke_normal" style="color:green">Hammer Bro Hei</a> / 
-                    <a href="https://www.youtube.com/channel/UCgqaFU1ff6axCEA5UkOt98A" class="stroke_normal" style="color:#00ccff">Hacked BroHei</a>
-                </h3>
-            </h1>
-        </div>
-        <br>
-        <br>
-        <div style="width: auto;">
-            <div class="list_featured">
-                <h2>Featured Pages</h2>
-                <div class="list_featured_inner">
-                    <div class="list_featured_td" style="background: linear-gradient(to bottom, #242873,#7e8ebd), url('https://hbrohei.github.io/MiniStarCenter/logo.png'); background-size: 50%;"><a style="color:white; display: block;" href="MiniStarCenter/index.html">
-                        <span style="font-size: larger;">Mini Star Center</span><br>All things about Mario Party 9</a>
+        <header>
+            <div id="topbar" style="width:100%"></div>
+            <div id="top_nav">
+                <a href="https://hbrohei.github.io" class="top_nav_btn"><img src="https://hbrohei.github.io/Nav/main_yt_logo.jpg"> Hammer Bro Hei</a>
+                <a href="https://hbrohei.github.io/MiniStarCenter" class="top_nav_btn hidden_narrow">Mini Star Center</a>
+                <a href="https://hbrohei.github.io/NSMRWii" class="top_nav_btn hidden_narrow">NSMBW Randomiser</a>
+                <a href="https://hbrohei.github.io/MKWorldStreetMap" class="top_nav_btn hidden_narrow">MKWorld Street Map</a>
+            </div>
+        </header>
+        
+        <main id="div_main">
+                <div id="page_head">
+                    <h1 id="h1_title" class="stroke_title">
+                        HBroHei<wbr>.github.io
+                        <h3>Homepage for Hammer Bro Hei's Fan-made, Open Source Mario Game Tools</h3>
+                        <!-- <h3>
+                            The website for <a href="https://www.youtube.com/channel/UCAB-dMSrwRcsUKBoWkPCkEA" class="stroke_normal" style="color:green">Hammer Bro Hei</a> / 
+                            <a href="https://www.youtube.com/channel/UCgqaFU1ff6axCEA5UkOt98A" class="stroke_normal" style="color:#00ccff">Hacked BroHei</a>
+                        </h3> -->
+                    </h1>
+                </div>
+
+                <div id="div_feat">
+                    <a id="a_mkworldmap" href="https://hbrohei.github.io/MKWorldStreetMap">
+                        <img src="./pics/mkworldmap.jpg" title="Mario Kart World Street Map">
+                        <div>
+                            <h2 style="font-size: 3em; font-weight: 900; margin:0; color:#38f254">Featured Tool</h2>
+                            <h3>Explore the Mario Kart World environment<br>with the <b style="color:orangered">Mario Kart World Street Map</b>!</h3>
+                            <!-- <ul>
+                                <li>Recorded most buildings and roads in the world</li>
+                                <li>Search function for specific structure (like Yoshi's Food type!)</li>
+                                <li>Built-in routing function for travels across lands</li>
+                            </ul> -->
+                            <button class="a_btn">Discover here!</button>
+                        </div>
+                    </a>
+                </div>
+
+                <h2 class="section_header">My Other Projects</h2>
+
+                <h3 class="section_subheader">Randomiser</h3>
+                <div class="pj_sec" id="div_nsmrw">
+                    <div id="div_nsmrw_flex">
+                        <div>
+                            <h2 class="pj_name">New Super Mario<br>Randomiser Wii</h2>
+                            <span class="pj_desc">The most chaotic and feature-rich randomiser for New Super Mario Bros Wii!</span>
+                            <a class="a_btn" href="./NSMRWii">Explore</a>
+                        </div>
+                        <iframe id="div_nsmrw_vid" class="list_featured_td" width="560" height="315" src="https://www.youtube-nocookie.com/embed/jo-Qr3vt4ZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div class="list_featured_td" style="background-color: #ffbe45;"><a style="display: block; color:black; font-weight:bold;" href="MKWorldStreetMap" class="list_featured_a"><span style="color:yellow">[NEW]</span> <span style="font-size: larger;">Mario Kart World</span><br>Street Map</a></div>
-                    <div class="list_featured_td" style="background-color: skyblue;"><a style="display: block; color:brown; font-weight: bold;" href="NSMRWii/index.html" class="list_featured_a"><span style="font-size: larger;">New Super Mario Bros Wii</span><br>Randomizer</a></div>
+                </div><br>
+
+                <h3 class="section_subheader">Mario Party 9</h3>
+                <div class="pj_sec" id="div_mp9">
+                    <div class="mp9_pj" id="div_mp9_central">
+                        <img src="pics/mp9.png">
+                        <div>
+                            <h2 class="pj_name mp9title">Mini Star Central</h2>
+                            <span class="pj_desc">A one-stop information centre for Mario Party 9!</span>
+                            <a class="a_btn" href="https://hbrohei.github.io/MiniStarCenter">Visit</a>
+                        </div>
+                    </div>
+                    <div class="mp9_pj" id="div_mp9_planner">
+                        <div>
+                            <h2 class="pj_name mp9title">Mini Star Viewer</h2>
+                            <span class="pj_desc">The first visual board viewer for Mario Party 9!</span>
+                            <a class="a_btn" href="https://hbrohei.github.io/MiniStarPlanner">Go</a>
+                        </div>
+                        <img src="pics/ministarplanner.png">
+                    </div>
+                </div>
+
+        </main>
+        <br>
+        <br>
+            <!--<iframe src="bottom.html" style="border:none; height:40vh; width:100vw; min-width: fit-content; right:0; top:0; left:0; bottom: 0px;"></iframe>-->
+        <footer>
+            <!-- <h3 class="section_subheader" style="color:white;">HBroHei.github.io</h3> -->
+            <div id="div_links">
+                <span style="color:white;">Find me at: </span>
+                <div id="btn_mainyt">
+                    <a href="https://www.youtube.com/channel/UCAB-dMSrwRcsUKBoWkPCkEA"><img src="./Nav/main_yt_logo.jpg">My First YT channel</a>
+                </div>
+                <div id="btn_hacked">
+                    <a href="https://www.youtube.com/channel/UCgqaFU1ff6axCEA5UkOt98A"><img src="https://yt3.googleusercontent.com/ytc/AIdro_kKTVJaNi_WEg96csnm5cwRb-DF_tvF8WDKM7ulrQ=s176-c-k-c0x00ffffff-no-rj">My Second YT channel</a>
+                </div>
+                <div id="btn_github">
+                    <a href="https://www.github.com/HBroHei"><!--<img src="main_yt_logo.jpg" style="width:3vw;">-->My GitHub</a>
+                </div>
+                <div id="btn_discord">
+                    <a href="https://discord.gg/z848AykwDr"><!--<img src="main_yt_logo.jpg" style="width:3vw;">-->My Discord Server</a>
                 </div>
             </div>
-        </div>
-        <div style="text-align: center; background-color: white; font-size: medium;">
-            <br>
-            <br>
-            <span style="font-size: 2vw; font-weight: bold;">Recommended Videos</h3>
-            <div class="list_featured_inner" style="margin: 1vw;">
-                <iframe class="list_featured_td" width="560" height="315" src="https://www.youtube-nocookie.com/embed/4X_NYXOhHwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div style="width:1vw"></div>
-                <iframe class="list_featured_td" width="560" height="315" src="https://www.youtube-nocookie.com/embed/jo-Qr3vt4ZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-        
-            <!--<iframe src="bottom.html" style="border:none; height:40vh; width:100vw; min-width: fit-content; right:0; top:0; left:0; bottom: 0px;"></iframe>-->
-        <div id="bottomNav" style="width: 100vw;">
-            <script src="/Nav/bottom.js"></script>
-        </div>
+            <hr>
+            <table id="tbl_links">
+                <tr>
+                    <td>
+                        <a href="https://hbrohei.github.io/" class="hidden_narrow">Main Page</a>
+                    </td>
+                    <td>
+                        <a href="https://hbrohei.github.io/NSMRWii" class="hidden_narrow">NSMBW Randomiser</a>
+                    </td>
+                    <td>
+                        <a href="https://hbrohei.github.io/MKWorldStreetMap" class="hidden_narrow">MKWorld Street Map</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://hbrohei.github.io/MiniStarCenter" class="hidden_narrow">Mini Star Center</a>
+                    </td>
+                    <td>
+                        <a href="https://hbrohei.github.io/MP9/" class="hidden_narrow">MP9 Custom Board</a>
+                    </td>
+                    <td>
+                        <a href="https://hbrohei.github.io/MiniStarPlanner" class="hidden_narrow">Mini Star Planner</a>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+            <h3>HBroHei.github.io</h3>   
+            <a id="git_source_a" href="https:/www.github.com/HBroHei/hbrohei.github.io">Source</a>
+        </footer>
         
     </body>
 </html>
